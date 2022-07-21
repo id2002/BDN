@@ -6737,7 +6737,7 @@ html.rd-navbar-fixed-linked .page {
 * =====================================================
 */
 .rd-navbar-classic.rd-navbar-static {
-	background: rgba(255, 255, 255, 0.11);
+	background: #000000;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-aside-outer,
