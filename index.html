@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/Custom.css">
     <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+    <style >.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
@@ -37,7 +37,7 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="index.html"><img class="brand-logo-light ml-4" src="images/BDN BLANCO.png" alt="" width="50px" height="50px"/></a></div>
+                <div class="rd-navbar-brand"><a href="index.html"><img class="brand-logo-light ml-4 tam1 d-none d-lg-block" src="images/BDN BLANCO.png" alt=""/></a><a href="index.html"><img class="brand-logo-light ml-4 tam2 d-lg-none" src="images/BDN BLANCO.png" alt=""/></a></div>
               </div>
               <div class="rd-navbar-main-element">
                 <div class="rd-navbar-nav-wrap">
@@ -149,7 +149,7 @@
           <div class="col-md-6 col-lg-3 wow-outer">
             <div class="wow fadeInUp">
               <article class="box-causes">
-                <div class="box-causes-img"><img src="images/Celulas.jpeg" alt="Celúlas / Reuniones en casa" width="372" height="396"/>
+                <div class="box-causes-img"><img src="images/Celulas.jpeg" class="tamImg" alt="Celúlas / Reuniones en casa"/>
                 </div>
                 <h4 class="font-weight-medium"><a href="#">Células</a></h4>
                 <p class="box-causes-donate"><span class="box-causes-donate-complete">Martes</span> <span>8:00pm</span></p>
@@ -159,7 +159,7 @@
           <div class="col-md-6 col-lg-3 wow-outer">
             <div class="wow fadeInUp">
               <article class="box-causes">
-                <div class="box-causes-img"><img src="images/Miercoles.jpeg" alt="" width="372" height="396"/>
+                <div class="box-causes-img"><img src="images/Miercoles.jpeg" class="tamImg" alt="Cultos online "/>
                 </div>
                 <h4 class="font-weight-medium"><a href="#">Culto Online </a></h4>
                 <p class="box-causes-donate"><span class="box-causes-donate-complete">Miércoles</span> <span>8:00pm</span>
@@ -170,7 +170,7 @@
           <div class="col-md-6 col-lg-3 wow-outer">
             <div class="wow fadeInUp">
               <article class="box-causes">
-                <div class="box-causes-img"><img src="images/flame.jpeg" alt="" width="372" height="396"/>
+                <div class="box-causes-img"><img src="images/flame.jpeg" alt="Reuniones de jovénes" class="tamImg"/>
                 </div>
                 <h4 class="font-weight-medium"><a href="#">Flame</a></h4>
                 <p class="box-causes-donate"><span class="box-causes-donate-complete">Sábados</span> <span>6:00pm</span>
@@ -181,7 +181,7 @@
           <div class="col-md-6 col-lg-3 wow-outer">
             <div class="wow fadeInUp">
               <article class="box-causes">
-                <div class="box-causes-img"><img src="images/Domingo.jpeg" alt="" width="372" height="396"/>
+                <div class="box-causes-img"><img src="images/Domingo.jpeg" alt="Culto presencial y online domingos" class="tamImg"/>
                 </div>
                 <h4 class="font-weight-medium"><a href="#">Culto Principal</a></h4>
                 <p class="box-causes-donate"><span class="box-causes-donate-complete">Domingo</span><span>10:00am</span>
@@ -217,7 +217,7 @@
                           </svg>
                           <span class="sib-form-message-panel__inner-text">
                                             Se ha realizado su suscripción.
-                                        </span>
+                          </span>
                         </div>
                       </div>
                       <div></div>
@@ -242,12 +242,10 @@
                                   <label class="entry__label" style="font-weight: 700; font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3c4858;" for="EMAIL" data-required="*">
                                     Introduzca su dirección de e-mail para suscribirse
                                   </label>
-
                                   <div class="entry__field">
                                     <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="EMAIL" data-required="true" required />
                                   </div>
                                 </div>
-
                                 <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
                                 </label>
                                 <label class="entry__specification" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#8390A4;">

@@ -38,3 +38,18 @@
     font-family: "Helvetica", sans-serif;
     color: #c0ccda;
   }
+
+  .tam1 {
+    width : 100px !important;
+    height: auto !important;
+  }
+
+  .tam2 {
+    width : 45px !important;
+    height: auto !important;
+  }
+  .tamImg {
+    width:372px !important;
+    height:auto !important;
+  }
+
