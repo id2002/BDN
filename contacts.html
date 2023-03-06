@@ -12,11 +12,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
     <link rel="stylesheet" href="css/Custom.css">
-
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
@@ -52,9 +49,9 @@
                     </li>
                     <li class="rd-nav-item  active"><a class="rd-nav-link" href="contacts.html">Contáctanos </a>
                     </li>
-                  </ul><a class="button button-primary button-sm" href="#">Donar</a>
+                  </ul>
                 </div>
-              </div><a class="button button-primary button-sm mr-4" href="#">Donar</a>
+              </div><button type="button" class="button button-primary button-sm mr-4" data-bs-toggle="modal" data-bs-target="#donaciones" >Donar</button>
             </div>
           </div>
         </nav>
@@ -1125,8 +1122,32 @@
       </footer>
     </div>
     <div class="snackbars" id="form-output-global"></div>
+    <div class="modal fade" id="donaciones" tabindex="-1" aria-labelledby="donaciones" aria-hidden="true">
+      <div class="modal-dialog bordernone">
+        <div class="modal-content">
+          <div class="modal-header bg-gray-600">
+            <h5 class="modal-title" id="exampleModalLabel">Donaciones</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body bg-gray-1">
+            <h4 class="text-center">Iglesia Evángelica Bola de Nieve en Perú</h4>
+          </br>
+            <h5 class="text-center">Banco InterBank</h5>
+            </br>
+            <p class=""><b class="" style="font-weight: 600;">Cuenta Corriente en Soles : </b> 4823001758417</p>           
+            <p class=""><b class="" style="font-weight: 600;">Cuenta Corriente Interbancaria en Soles : </b> 003-482003001758417-75</p>           
+            <p class=""><b class="" style="font-weight: 600;">Cuenta Corriente en Soles : </b> 4823001758424</p>
+            <p class=""><b class="" style="font-weight: 600;">Cuenta Corriente Interbancaria en Soles : </b> 003-482003001758424-71</p>           
+          </div>
+          <div class="modal-footer bg-gray-600">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://sibforms.com/forms/end-form/build/main.js"></script>
     <script>
       window.REQUIRED_CODE_ERROR_MESSAGE = 'Elija un código de país';
